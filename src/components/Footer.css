@@ -1,8 +1,13 @@
 /* Footer.css */
 .footer {
-    padding: 20px 0; /* Add padding for better spacing */
-    position: relative; /* Position relative for any absolute elements */
-  }
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    position: fixed; /* Fix the footer at the bottom */
+    bottom: 0; /* Ensure it's always at the bottom */
+    width: 100%; /* Make sure it spans the full width */
+    z-index: 10; /* Ensure it stays on top of other elements */
+}
   
   .social-links {
     display: flex; /* Use Flexbox for horizontal alignment */
